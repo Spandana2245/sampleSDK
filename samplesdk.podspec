@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'samplesdk'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of samplesdk.'
+  s.summary          = 'sample sdk creation'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+sample sdk creation.sample sdk creation.sample sdk creation.sample sdk creation.
                        DESC
 
   s.homepage         = 'https://github.com/spandana2245/samplesdk'
