@@ -1,0 +1,16 @@
+PODS:
+  - samplesdk (0.1.0)
+
+DEPENDENCIES:
+  - samplesdk (from `../`)
+
+EXTERNAL SOURCES:
+  samplesdk:
+    :path: ../
+
+SPEC CHECKSUMS:
+  samplesdk: dbffdbb371d70197c2cd0720b51f543e3fb8286c
+
+PODFILE CHECKSUM: 438e83ec111a8e4d3be0c5b0083b30af8e752a36
+
+COCOAPODS: 1.2.1

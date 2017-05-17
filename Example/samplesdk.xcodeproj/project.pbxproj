@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		00FD6DCF936AA432402BF2AD /* Pods_samplesdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_samplesdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C2930940ACB02EF34B3C51C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1E269E2E1C0DB7D8D0AB52DE /* samplesdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = samplesdk.podspec; path = ../samplesdk.podspec; sourceTree = "<group>"; };
+		1C2930940ACB02EF34B3C51C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1E269E2E1C0DB7D8D0AB52DE /* samplesdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = samplesdk.podspec; path = ../samplesdk.podspec; sourceTree = "<group>"; };
 		223F258A4F9CDE8F000DDA80 /* Pods-samplesdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplesdk_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-samplesdk_Example/Pods-samplesdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5645E82B967CEFDED8D26A91 /* Pods-samplesdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplesdk_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-samplesdk_Tests/Pods-samplesdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A07A21C3CA62BB916828DB9 /* Pods-samplesdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplesdk_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-samplesdk_Example/Pods-samplesdk_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		71C4CB7AA73D8B374180D6EC /* Pods-samplesdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplesdk_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-samplesdk_Tests/Pods-samplesdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CC1C55E15E66CF0D7506D753 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CC1C55E15E66CF0D7506D753 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CD244FB87F3DCEA5527F3490 /* Pods_samplesdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_samplesdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T69E8H38S7;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T69E8H38S7;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = 223F258A4F9CDE8F000DDA80 /* Pods-samplesdk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T69E8H38S7;
 				INFOPLIST_FILE = samplesdk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = 5A07A21C3CA62BB916828DB9 /* Pods-samplesdk_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T69E8H38S7;
 				INFOPLIST_FILE = samplesdk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71C4CB7AA73D8B374180D6EC /* Pods-samplesdk_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T69E8H38S7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5645E82B967CEFDED8D26A91 /* Pods-samplesdk_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T69E8H38S7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
