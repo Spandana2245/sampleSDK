@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'samplesdk_Example' do
+  pod 'samplesdk', :path => '../'
+
+  target 'samplesdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
